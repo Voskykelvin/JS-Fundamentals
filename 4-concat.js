@@ -6,8 +6,8 @@ function describeThing() {
 
 describeThing("Python", "fun");
 
-function htbn() {
-    console.log(`${arguments[2]} is ${arguments[3]}`);
+//function htbn() {
+    //console.log(`${arguments[2]} is ${arguments[3]}`);
 
-}
-  htbn("HTBN");
+//}
+  //htbn("HTBN");
