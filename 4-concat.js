@@ -1,14 +1,7 @@
-function describeThing() {
-  console.log(`${arguments[0]} is ${arguments[1]}`);
-  
-  //console.log(`${arguments[4]} is ${arguments[5]}`);
+function describeThings() {
+  for (let i = 0; i < arguments.length; i += 2) {
+    console.log(`${arguments[i]} is ${arguments[i + 1]}`);
+  }
 }
 
-describeThing("Python", "fun");
-describeThing("HBTN", "undefined");
-
-//function htbn() {
-    //console.log(`${arguments[2]} is ${arguments[3]}`);
-
-//}
-  //htbn("HTBN");
+describeThings("Python", "fun", "HTBC", undefined, undefined, undefined);
