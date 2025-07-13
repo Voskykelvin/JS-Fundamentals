@@ -1,7 +1,3 @@
-function describeThings() {
-  for (let i = 0; i < arguments.length; i += 2) {
-    console.log(`${arguments[i]} is ${arguments[i + 1]}`);
-  }
-}
+const args = process.argv.slice(2);
 
-describeThings("Python", "fun", "HTBC", undefined, undefined, undefined);
+console.log(`${args[0]} is ${args[1]}`);
