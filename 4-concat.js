@@ -5,6 +5,7 @@ function describeThing() {
 }
 
 describeThing("Python", "fun");
+describeThing("HBTN", "undefined");
 
 //function htbn() {
     //console.log(`${arguments[2]} is ${arguments[3]}`);
